@@ -1,0 +1,24 @@
+{
+  "name": "test-ui-testCafe",
+  "version": "1.0.0",
+  "description": "Test UI using TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "testui": "testcafe chrome src/functional-tests/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josealaguerra/test-ui-testCafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josealaguerra/test-ui-testCafe/issues"
+  },
+  "homepage": "https://github.com/josealaguerra/test-ui-testCafe#readme",
+  "devDependencies": {
+    "testcafe": "^1.11.0"
+  }
+}
